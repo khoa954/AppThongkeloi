@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="90dp"
+        android:layout_height="200dp">
+        <EditText
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="Nhập mã"
+            android:id="@+id/phe_search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <GridView
+            android:id="@+id/phe_gridView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+    </LinearLayout>
+</ScrollView>
